@@ -1,4 +1,4 @@
-module ddk
+module demo
 
 import log
 import net.http

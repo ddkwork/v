@@ -1,4 +1,4 @@
-module ddk
+module demo
 
 pub type Signed = int | i8 | i16 | i32 | i64
 pub type Unsigned = u8 | u16 | u32 | u64

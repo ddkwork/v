@@ -1,4 +1,4 @@
-module ddk
+module demo
 
 import x.json2 as json
 

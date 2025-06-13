@@ -1,4 +1,4 @@
-module ddk
+module demo
 
 struct Container[T] {
 mut:

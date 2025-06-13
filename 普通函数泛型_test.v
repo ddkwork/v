@@ -1,4 +1,4 @@
-module ddk
+module demo
 
 fn fuck(a int, b int) int {
 	return a + b
