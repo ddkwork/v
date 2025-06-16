@@ -149,11 +149,11 @@ fn test_xx00_obj() {
 	buf.reset()
 
 	// 添加复杂结构
-	mut map_val := map[string]Value{}
+	mut map_val := map[string]T{}
 	map_val['name'] = 'Alice'
 	map_val['age'] = 30
 
-	mut arr_val := []Value{}
+	mut arr_val := []T{}
 	arr_val << 10
 	arr_val << 20
 	arr_val << 30
