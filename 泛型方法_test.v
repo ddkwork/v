@@ -83,7 +83,7 @@ pub fn (mut b Buffer) add_value(val T) {
 			b.add_str('null')
 		}
 		// 处理集合类型
-		[]Value {
+		[]T {
 			b.add_byte(`[`)
 			for i, item in val {
 				if i > 0 {
