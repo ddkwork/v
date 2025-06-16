@@ -4,7 +4,7 @@ import time
 
 //编译通过，这才是真正的泛型方法，泛型结构体方法是约束字段类型，泛型方法是约束方法参数类型
 // 基于标准库最佳实践定义Value类型
-pub type Value = []Value
+pub type T = []T
 	| bool
 	| f64
 	| f32
@@ -54,7 +54,7 @@ fn (mut b Buffer) add_num(n int) {
 }
 
 // add_value 主方法：添加值
-pub fn (mut b Buffer) add_value(val Value) {
+pub fn (mut b Buffer) add_value(val T) {
 	match val {
 		// 处理基本类型
 		string {
