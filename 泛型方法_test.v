@@ -13,7 +13,7 @@ pub type T = []T
 	| i32
 	| i16
 	| i8
-	| map[string]Value
+	| map[string]T
 	| string
 	| time.Time
 	| u64
