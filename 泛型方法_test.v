@@ -93,7 +93,7 @@ pub fn (mut b Buffer) add_value(val T) {
 			}
 			b.add_byte(`]`)
 		}
-		map[string]Value {
+		map[string]T {
 			b.add_byte(`{`)
 			mut first := true
 			for key, value in val {
